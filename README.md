@@ -2,7 +2,7 @@
 
 Backend-leaning full-stack engineer in Jacksonville, FL. TypeScript (Effect), Python, PostgreSQL, AWS.
 
-Until October 2026 I was an early engineer at [Maple](https://maple.inc), a restaurant-tech startup with an LLM phone agent and a platform for ordering, payments and reservations. That work lives in private repos, so here is the shape of it.
+Until October 2026 I was a senior software engineer at [Maple](https://maple.inc), a restaurant-tech startup with an LLM phone agent and a platform for ordering, payments and reservations. That work lives in private repos, so here is the shape of it.
 
 ## Selected work
 
@@ -12,6 +12,14 @@ Until October 2026 I was an early engineer at [Maple](https://maple.inc), a rest
 - **Payments**: CyberSource Unified Checkout and automated merchant boarding on TSYS, Worldpay and Fiserv; Evervault tokenization; earlier, Stripe billing and payouts.
 - **SMS compliance**: a Twilio A2P 10DLC registration platform with webhook automation and nightly self-healing, and deliverability fixes that took carrier-blocked payment reminders from ~38% to zero.
 - **Platform**: made the initial commit of the monorepo (SST on AWS, Bun, Turbo) and the first backend services.
+
+## Public work
+
+Three repos built in October 2026 as from-scratch demonstrations of patterns I used in private codebases, written with Claude Code as a pair and reviewed, tested and committed by me. Nothing in them is taken from an employer's code.
+
+- [durable-integrations](https://github.com/maydan90/durable-integrations): idempotency keys, leased operations, recovery from unknown outcomes and webhook delivery with replay, in TypeScript on PostgreSQL, tested against a real database.
+- [voice-booking-agent](https://github.com/maydan90/voice-booking-agent): a LiveKit Agents voice agent for appointment booking, with typed speakable tool outcomes, per-change request ids reused on retry, and deterministic evals that replay tool calls without an LLM.
+- [design-notes](https://github.com/maydan90/design-notes): short write-ups of designs and incidents from integrations, payments and an LLM phone agent.
 
 ## How I work
 
